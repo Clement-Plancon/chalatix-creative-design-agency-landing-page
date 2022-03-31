@@ -1,0 +1,112 @@
+.first-section {
+    width: 100%;
+    height: 1080px;
+    background-color: white;
+    display: flex;
+    overflow-y: hidden;
+    .leftContainer {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        img {
+            transform: translateY(-58%);
+        }
+    }
+    .centerContainer {
+        width: 60%;
+        height: 100%;
+        overflow: visible;
+        h1 {
+            font-size: 128px;
+            margin-top: 180px;
+            span {
+                font-weight: 400;
+            }
+        }
+        &-bottom {
+            width: 100%;
+            margin-top: 77px;
+            margin-bottom: 70px;
+            p {
+                font-size: 64px;
+                padding-left: 10%;
+                span {
+                    font-weight: 700;
+                }
+            }
+            .lineSeparator {
+                height: 0px;
+                border: 1px solid rgba(0, 0, 0, 0.22);
+                margin-left: 10%;
+                transform: translateY(70px);
+            }
+            .socialIcon {
+                width: 100%;
+                padding-left: 10%;
+                margin-top: 300px;
+                display: flex;
+                justify-content: flex-start;
+                .behanceCircle,
+                .dribbbleCircle,
+                .instagramCircle {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 5%;
+                    width: 20%;
+                    p {
+                        font-size: 24px;
+                        font-weight: 400;
+                    }
+                }
+                .purpleCircle {
+                    height: 60px;
+                    width: 60px;
+                    background-color: #7E62EA;
+                    border-radius: 50%;
+                    display: inline-block;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .rightContainer {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .cardContainer {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            position: relative;
+            overflow: visible;
+            .bigPurpleCircle {
+                position: absolute;
+                width: 189px;
+                height: 189px;
+                border-radius: 50%;
+                background: #613FE5;
+                border: 19px solid white;
+                left: 70px;
+                top: -127px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    color: white;
+                    font-size: 32px;
+                    text-align: center;
+                }
+            }
+            img {
+                width: 70%;
+            }
+        }
+    }
+}
